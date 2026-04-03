@@ -1,4 +1,4 @@
 # Sistema de Cadastro
-Atividade da Faculdade
+Atividade da Faculdade.
 
 um sistema funcional de cadastro.
