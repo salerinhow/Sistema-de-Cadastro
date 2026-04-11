@@ -1,4 +1,3 @@
-# Sistema de Cadastro
+# TechConnect
 Atividade da Faculdade.
 
-um sistema funcional de cadastro.
