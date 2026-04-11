@@ -1,3 +1,3 @@
 # TechConnect
-Atividade da Faculdade.
+Atividade da Faculdade. (Front-End)
 
