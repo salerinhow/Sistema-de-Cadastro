@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato - TechConnect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+  <h1>TechConnect</h1>
+
+  <nav class="menu">
+    <a href="index.html">Home</a>
+
+    <div class="dropdown">
+      <a href="servicos.html">Serviços</a>
+      <div class="submenu">
+        <a href="servicos.html">Todos os serviços</a>
+        <a href="planos.html">Planos</a>
+      </div>
+    </div>
+
+    <a href="planos.html">Planos</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+</header>
+
+<main>
+  <section class="pagina">
+    <h2>Entre em Contato com a TechConnect</h2>
+
+    <form>
+         <label for="nome">Nome</label>
+            <input type="text" id="nome" required>
+              <label for="email">Email</label>
+                 <input type="email" id="email" required>
+                    <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" required>
+                             <label for="servico">Tipo de serviço</label>
+                                     <select id="servico" required>
+                                             <option value="">Selecione</option>
+                                                     <option>Criação de site</option>
+                                                     <option>Aplicativo</option>
+                                                 <option>Criação de jogos   </option>
+                                          <option>Suporte técnico</option>
+                                      </select>
+                                 <label for="mensagem">Mensagem</label>
+                             <textarea id="mensagem" required></textarea>
+                          <div class="checkbox">
+                        <input type="checkbox" id="aceite" required>
+                      <label for="aceite">Aceito de Termos</label>
+                     </div>
+                 <button type="submit">Enviar</button>
+             </form>
+          </section>
+        </main>
+
+<footer>
+  <p>© 2026 TechConnect. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
